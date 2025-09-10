@@ -1,0 +1,1 @@
+# TripleTen_Analyst_QA_Sprint_04_Teste_de_API
