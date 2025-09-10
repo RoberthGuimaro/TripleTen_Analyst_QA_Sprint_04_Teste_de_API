@@ -1,0 +1,2263 @@
+{
+	"info": {
+		"_postman_id": "fb84237e-9c6d-4c9f-bdb6-446b3f1f1069",
+		"name": "kit_and_order_and_go_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27180280",
+		"_collection_link": "https://tripletenroberth.postman.co/workspace/TripleTen~3e985ea0-c03c-4c06-b87b-8d8c5a97cf43/collection/27180280-fb84237e-9c6d-4c9f-bdb6-446b3f1f1069?action=share&source=collection_link&creator=27180280"
+	},
+	"item": [
+		{
+			"name": "Projeto_kit_order_and_go_API",
+			"item": [
+				{
+					"name": "01 - Id - Endpoint",
+					"item": [
+						{
+							"name": "Kit - 01",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 02",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits//products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 03",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\":\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\":\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 04",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 500000,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 999888,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 05",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 9,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 10,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 06",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 07",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/0/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"0",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 08",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/kit/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"kit",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 09",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/爱和/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"爱和",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 10",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/1 1/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"1 1",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 11",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2-/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2-",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Kit - 12",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2!@#/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2!@"
+									],
+									"hash": "/products"
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "02 - productList - id",
+					"item": [
+						{
+							"name": "13",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "14",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": kit,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": meu,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "15",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 爱和,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 爱,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "16",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1 2,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 3 4,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "17",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1-2,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 3-4,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "18",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1!@2,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 3!@4,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "03 - productList - quantity",
+					"item": [
+						{
+							"name": "19",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 3\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "20",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": kit\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": meu\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "21",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 爱和\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 爱\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "22",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 1 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 3 4\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "23",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 1-2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 3-4\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "24",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 1!@2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 3#$4\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}api/v1/kits/2/products",
+									"host": [
+										"{{server_url}}api"
+									],
+									"path": [
+										"v1",
+										"kits",
+										"2",
+										"products"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "04 - order and go - geral",
+					"item": [
+						{
+							"name": "01",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "02",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "03",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "04",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 10\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "05 - order and go - deliveryTime",
+					"item": [
+						{
+							"name": "05",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 7,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "06",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 8,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "07",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "08",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 21,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "09",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 22,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "10",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 23,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "11",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 8,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "12",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 175555,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "13",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": time,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "14",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\":,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "15",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 爱和,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "16",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 2 1,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "17",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 2-1,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "18",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": !@#$%,\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "19",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": \"time\",\r\n    \"productsCount\": 10,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "06 - order and go - productsCount",
+					"item": [
+						{
+							"name": "20",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 0,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "21",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 1,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "22",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 14,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "23",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 15,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "24",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 16,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "25",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 99999,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "26",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": Produto,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "27",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\":,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "28",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 爱和,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "29",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 1 1,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "30",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 1-1,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "31",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": !@#$%,\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "32",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": \"produto\",\r\n    \"productsWeight\": 3\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "07 - order and go - productsWeight",
+					"item": [
+						{
+							"name": "33",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 6,\r\n    \"productsWeight\": 0\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "34",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": 0.01\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "35",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": 5.99\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "36",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": 6\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "37",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": 6.01\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "38",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": 11.11\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "39",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": produto\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "40",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\":\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "41",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": 爱和\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "42",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": 1 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "43",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": 1-1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "44",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": !@#$%\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "45",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 5,\r\n    \"productsWeight\": \"produto\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "08 - order and go - clientDeliveryCost",
+					"item": [
+						{
+							"name": "46",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 16,\r\n    \"productsWeight\": 6\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "47",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 17,\r\n    \"productsWeight\": 6\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "48",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 16,\r\n    \"productsWeight\": 6.1\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "09 - order and go - hostDeliveryCost",
+					"item": [
+						{
+							"name": "49",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 9,\r\n    \"productsWeight\": 3,1\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "50",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 9,\r\n    \"productsWeight\": 2\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "51",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 8,\r\n    \"productsWeight\": 3.1\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "52",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 8,\r\n    \"productsWeight\": 3\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "53",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 1,\r\n    \"productsWeight\": 3\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "54",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 9,\r\n    \"productsCount\": 8,\r\n    \"productsWeight\": 0.1\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "10 - order and go - isItPossibleToDeliver",
+					"item": [
+						{
+							"name": "55",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 7,\r\n    \"productsCount\": 1,\r\n    \"productsWeight\": 3\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "56",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 8,\r\n    \"productsCount\": 1,\r\n    \"productsWeight\": 3\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "57",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 22,\r\n    \"productsCount\": 1,\r\n    \"productsWeight\": 3\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "58",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"deliveryTime\": 23,\r\n    \"productsCount\": 1,\r\n    \"productsWeight\": 3\r\n}"
+								},
+								"url": {
+									"raw": "{{server_url}}order-and-go/v1/delivery",
+									"host": [
+										"{{server_url}}order-and-go"
+									],
+									"path": [
+										"v1",
+										"delivery"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
